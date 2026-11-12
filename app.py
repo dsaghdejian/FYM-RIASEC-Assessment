@@ -31,7 +31,7 @@ TEST_SECONDS = 5 * 60
 RETENTION_YEARS = 5
 
 st.set_page_config(
-    page_title="Թեստ | FYM Hospitality Group",
+    page_title="Թեստի Հարթակ | FYM Hospitality Group",
     page_icon="🏢",
     layout="centered",
     initial_sidebar_state="collapsed",
