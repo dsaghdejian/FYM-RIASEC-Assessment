@@ -510,7 +510,7 @@ def render_hero(subtitle: str = ""):
         )
 
 def render_candidate_home():
-    render_hero("Թեստ")
+    render_hero("Թեստի Հարթակ")
     st.markdown("### Բարի գալուստ")
     st.markdown(
         '<p class="muted">Խնդրում ենք լրացնել Ձեր տվյալները՝ թեստը սկսելու համար։ '
@@ -539,7 +539,7 @@ def render_candidate_home():
             st.rerun()
 
 def render_instructions():
-    render_hero("Թեստ")
+    render_hero("Թեստի Հարթակ")
     st.markdown(
         """
         Գնահատե՛ք, թե որքան հաճույքով կանեիք յուրաքանչյուր գործունեությունը։
