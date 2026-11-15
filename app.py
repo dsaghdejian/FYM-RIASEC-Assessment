@@ -31,7 +31,7 @@ TEST_SECONDS = 5 * 60
 RETENTION_YEARS = 5
 
 st.set_page_config(
-    page_title="Թեստի Հարթակ | FYM Hospitality Group",
+    page_title="Թեստի հարթակ | FYM Hospitality Group",
     page_icon="🏢",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -510,7 +510,7 @@ def render_hero(subtitle: str = ""):
         )
 
 def render_candidate_home():
-    render_hero("Թեստի Հարթակ")
+    render_hero("Թեստի հարթակ")
     st.markdown("### Բարի գալուստ")
     st.markdown(
         '<p class="muted">Խնդրում ենք լրացնել Ձեր տվյալները՝ թեստը սկսելու համար։ '
@@ -539,7 +539,7 @@ def render_candidate_home():
             st.rerun()
 
 def render_instructions():
-    render_hero("Թեստի Հարթակ")
+    render_hero("Թեստի հարթակ")
     st.markdown(
         """
         Գնահատե՛ք, թե որքան հաճույքով կանեիք յուրաքանչյուր գործունեությունը։
